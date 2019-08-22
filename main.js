@@ -21,11 +21,11 @@ function conv() {
     } else if (selectbox === "kmtomiles") {
       document.querySelector(
         ".convText"
-      ).innerHTML = `${inp} km = ${conv__kmtomiles} miles`;
+      ).innerHTML = `${inp} km = ${conv__kmtomiles} mil`;
     } else if (selectbox === "milestokm") {
       document.querySelector(
         ".convText"
-      ).innerHTML = `${inp} miles = ${conv__milestokm} km`;
+      ).innerHTML = `${inp} mil = ${conv__milestokm} km`;
     }
 
     document.querySelector("#inp").value = "";

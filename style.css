@@ -34,6 +34,7 @@ body {
 }
 
 select {
+  width: 40%;
   margin-top: 2em;
   margin-bottom: 1em;
   padding: 0.5em;
@@ -46,12 +47,12 @@ select {
   outline: 0;
 }
 
-select:hover,
+/* select:hover,
 select:focus,
 select:active {
   outline: 0;
-  border-bottom-color: #5ee7df;
-}
+  border-bottom-color: currentColor;
+} */
 
 .converter-box {
   width: 380px;
