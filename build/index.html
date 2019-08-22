@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <title>Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p class="header-text">Converter</p>
+      </div>
+      <div class="converter-box">
+        <div class="input-wrapper">
+          <input type="text" id="inp" autofocus />
+        </div>
+        <!-- select -->
+        <div class="select-container">
+          <select id="selectbox">
+            <option value="cmtoinch">cm to inch</option>
+            <option value="inchtocm">inch to cm</option>
+            <option value="kmtomiles">km to miles</option>
+            <option value="milestokm">miles to km</option>
+          </select>
+        </div>
+        <!-- select end -->
+        <!-- button -->
+        <div class="container-button">
+          <a id="button-1" onclick="conv()" class="button" href="#"
+            >convert<i id="arrow-hover" class="fas fa-sync-alt"></i
+          ></a>
+        </div>
+        <!-- button end -->
+        <div class="show-conversion">
+          <p class="convText"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/6612735f72.js"></script>
+  </body>
+</html>
